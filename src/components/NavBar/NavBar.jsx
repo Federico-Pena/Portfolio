@@ -16,6 +16,7 @@ function NavBar() {
 					</li>
 				</ul>
 			</nav>
+			<div className='progressBar'></div>
 		</header>
 	)
 }

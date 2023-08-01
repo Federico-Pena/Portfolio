@@ -32,12 +32,12 @@ function Hero() {
 				<h1>
 					¡Hola! Mi Nombre es <span className='nombre'>Federico</span>
 				</h1>
-				<h3 className='parrafo'>
+				<h2 className='parrafo'>
 					Desarrollador con experiencia en HTML, CSS y JavaScript. Mi enfoque
 					versátil me ha llevado a explorar frameworks modernos como React, que
 					me permiten crear aplicaciones web interactivas e intuitivas.
-				</h3>
-				<h2 className='palabras'>{palabra}</h2>
+				</h2>
+				<h3 className='palabras'>{palabra}</h3>
 			</section>
 		</>
 	)

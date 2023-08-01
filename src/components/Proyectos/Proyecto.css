@@ -29,6 +29,13 @@
 }
 
 .cardProyecto {
+	view-timeline-name: --revealing-card;
+	view-timeline-axis: y;
+	animation-name: show;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+	animation-timeline: --revealing-card;
+	animation-range: entry 10% cover 25%;
 	width: 100%;
 	max-width: 300px;
 	display: flex;
@@ -40,7 +47,6 @@
 	overflow: hidden;
 	color: #121212;
 	cursor: default;
-	box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.473);
 }
 .cardProyecto h4 {
 	background-color: rgba(255, 255, 255, 0.205);
@@ -67,7 +73,7 @@
 	border-radius: 0.3rem;
 }
 .imgContainer img {
-	width: 200%;
+	width: 100%;
 	height: 100%;
 	position: absolute;
 	left: 50%;
@@ -112,4 +118,18 @@
 .enlaces a svg {
 	width: 1.5rem;
 	height: 1.5rem;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+		transform: scale(0.25) translate(-100vw);
+	}
+	50% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) translate(0);
+	}
 }

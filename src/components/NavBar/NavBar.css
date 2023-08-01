@@ -6,7 +6,14 @@ nav {
 	z-index: 5;
 	background-color: rgba(0, 0, 0, 0.63);
 }
-
+.progressBar {
+	background-color: rgb(6, 143, 255);
+	height: 0.2rem;
+	width: 100%;
+	transform-origin: 0 50%;
+	animation: progress-bar auto linear;
+	animation-timeline: scroll();
+}
 .ulNav {
 	display: flex;
 	justify-content: space-between;
@@ -23,4 +30,13 @@ nav {
 .ulNav a:hover {
 	color: #4e4feb;
 	text-decoration: underline;
+}
+
+@keyframes progress-bar {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(100%);
+	}
 }
