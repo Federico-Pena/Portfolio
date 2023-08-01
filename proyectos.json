@@ -1,0 +1,32 @@
+{
+	"proyectos": [
+		{
+			"titulo": "Clonflix",
+			"imagen": "./assets/portadaClonfix.webp",
+			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
+			"gitHub": "https://github.com/Federico-Pena/clonflix",
+			"deploy": "https://clonflix.vercel.app/"
+		},
+		{
+			"titulo": "La Tienda",
+			"imagen": "./assets/portadaLaTienda.webp",
+			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
+			"gitHub": "https://github.com/Federico-Pena/La-Tienda",
+			"deploy": "https://la-tienda.vercel.app/"
+		},
+		{
+			"titulo": "Sabores Sin Fronteras",
+			"imagen": "./assets/portadaSaboresSinFronteras.webp",
+			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
+			"gitHub": "https://github.com/Federico-Pena/Sabores-sin-Fronteras",
+			"deploy": "https://sabores-sin-fronteras.vercel.app/"
+		},
+		{
+			"titulo": "Natalia Pena Masajista",
+			"imagen": "./assets/portadaNataliaPenaMasajista.webp",
+			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
+			"gitHub": "https://github.com/Federico-Pena/Natalia-Pena-Masajista",
+			"deploy": "https://natalia-pena-masajista.vercel.app/"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+#herramientas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+}
+#herramientas .bgHerramientas {
+	background-image: linear-gradient(#ffffff60, #ffffff60),
+		url('../../../assets/backgrounHerramientas.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(5px);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+}
+#herramientas h3 {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	color: #121212;
+	padding: 4rem 0 1rem 0;
+}
+#herramientas div {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+#herramientas div .listaHerramientas {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-auto-rows: min-content;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	gap: 3rem;
+	max-width: 900px;
+	margin: auto;
+}
+#herramientas .listaHerramientas li {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0.5rem;
+	color: #121212;
+	font-weight: 600;
+	text-align: center;
+}
+.listaHerramientas a {
+	text-decoration: none;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s ease;
+}
+.listaHerramientas a:hover {
+	text-decoration: underline;
+	transform: scale(1.05);
+}
+.listaHerramientas li img {
+	width: 50%;
+}
+.listaHerramientas li svg {
+	width: 4rem;
+	height: 4rem;
+}

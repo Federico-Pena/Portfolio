@@ -1,0 +1,62 @@
+#sobreMi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #332424;
+	color: #ffffff;
+	width: 100%;
+}
+#sobreMi h3 {
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 4rem;
+}
+#sobreMi ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	font-size: 18px;
+	gap: 2rem;
+	max-width: 800px;
+	flex: auto;
+}
+#sobreMi ul li {
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+#sobreMi .contacto {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 800px;
+	flex: auto;
+}
+.contacto a {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	color: #ffffff;
+	transition: color 0.5s ease;
+	width: 100%;
+	text-decoration: none;
+}
+.contacto a:hover {
+	color: #4e4feb;
+	text-decoration: underline;
+}
+.contacto a:hover svg {
+	color: #4e4feb;
+}
+.contacto svg {
+	width: 2rem;
+	height: 2rem;
+	color: #ffffff;
+}
