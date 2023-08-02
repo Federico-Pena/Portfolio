@@ -14,11 +14,11 @@ function SobreMi() {
 				</li>
 				<li>
 					Lo que más me motiva es enfrentar desafíos técnicos y encontrar
-					soluciones resolutivas que mejoren la experiencia del usuario. Mi
-					capacidad para adaptarme a diferentes tecnologías y aprender nuevas
-					herramientas, como MongoDB para bases de datos y Sass para la creación
-					de estilos, me ha permitido ampliar mis habilidades y llevar mis
-					proyectos al siguiente nivel.
+					soluciones que mejoren la experiencia del usuario. Mi capacidad para
+					adaptarme a diferentes tecnologías y aprender nuevas herramientas,
+					como MongoDB para bases de datos y Sass para la creación de estilos,
+					me ha permitido ampliar mis habilidades y llevar mis proyectos al
+					siguiente nivel.
 				</li>
 				<li>
 					Disfruto aprender de perspectivas únicas. Me enorgullece ser parte de
