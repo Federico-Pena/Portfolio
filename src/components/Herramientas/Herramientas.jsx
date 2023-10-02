@@ -13,48 +13,85 @@ function Herramientas() {
       <div>
         <ul className='listaHerramientas'>
           <li>
-            <AiFillHtml5 />
-            HTML
+            <a
+              href='https://developer.mozilla.org/es/docs/Web/HTML'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <AiFillHtml5 />
+              HTML
+            </a>
           </li>
           <li>
-            <BiLogoCss3 />
-            CSS
+            <a
+              href='https://developer.mozilla.org/es/docs/Web/CSS'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <BiLogoCss3 />
+              CSS
+            </a>
           </li>
           <li>
-            <BiLogoJavascript />
-            JavasScript
+            <a
+              href='https://developer.mozilla.org/es/docs/Web/JavaScript'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <BiLogoJavascript />
+              JavasScript
+            </a>
           </li>
           <li>
-            <BsGit />
-            Git
+            <a href='https://git-scm.com/' target='_blank' rel='noopener noreferrer'>
+              <BsGit />
+              Git
+            </a>
           </li>
           <li>
-            <AiFillGithub />
-            GitHUb
+            <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
+              <AiFillGithub />
+              GitHUb
+            </a>
           </li>
           <li>
-            <LiaNode />
-            Node
+            <a
+              href='https://developer.mozilla.org/es/docs/Web/API/Node'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <LiaNode />
+              Node
+            </a>
           </li>
           <li>
-            <BiLogoMongodb />
-            MongoDB
+            <a href='https://www.mongodb.com/es' target='_blank' rel='noopener noreferrer'>
+              <BiLogoMongodb />
+              MongoDB
+            </a>
           </li>
           <li>
-            <SiExpress />
-            Express
+            <a
+              href='https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <SiExpress />
+              Express
+            </a>
           </li>
           <li>
-            <SiSass />
-            Sass
+            <a href='https://sass-lang.com/' target='_blank' rel='noopener noreferrer'>
+              <SiSass />
+              Sass
+            </a>
           </li>
           <li>
-            <SiReact />
-            React
+            <a href='https://es.react.dev/' target='_blank' rel='noopener noreferrer'>
+              <SiReact />
+              React
+            </a>
           </li>
           <li>
-            <SiOpenai />
-            OpenAi
+            <a href='https://openai.com/' target='_blank' rel='noopener noreferrer'>
+              <SiOpenai />
+              OpenAi
+            </a>
           </li>
           <li>
             <a href='https://squoosh.app/' target='_blank' rel='noopener noreferrer'>

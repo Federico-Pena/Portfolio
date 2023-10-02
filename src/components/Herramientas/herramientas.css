@@ -35,7 +35,6 @@
 #herramientas div .listaHerramientas {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-auto-rows: min-content;
   width: 100%;
   height: 100%;
   padding: 2rem;
@@ -74,11 +73,12 @@
   transform: scale(1.05);
 }
 .listaHerramientas li img {
-  width: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .listaHerramientas li svg {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 @keyframes showHerramientas {

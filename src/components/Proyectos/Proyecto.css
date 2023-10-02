@@ -37,7 +37,9 @@
   animation-range: entry 0% cover 30%;
   transition: transform 0.3s ease;
   width: 100%;
-  max-width: 300px;
+  max-width: 358px;
+  height: 740px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,18 +59,13 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   z-index: 2;
+  transition: color, background-color 0.3s ease;
 }
-.cardProyecto:hover .contenido {
-  height: 100%;
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.466);
-  backdrop-filter: blur(10px);
+.cardProyecto:hover h4 {
+  background-color: rgba(0, 0, 0, 0.63);
+  color: #ffffff;
 }
-.cardProyecto:hover .enlaces {
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.466);
-  backdrop-filter: blur(10px);
-}
+
 .cardProyecto .imgContainer {
   max-width: 100%;
   border-radius: 0.3rem;
@@ -86,11 +83,14 @@
   padding: 1rem;
   line-height: 1.8;
   opacity: 0;
-  background-color: transparent;
-  color: #121212;
-  font-weight: 700;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-weight: 500;
   transition: all 0.5s ease;
   flex: auto;
+  transition: transform opacity 0.3s ease;
+  transform: scale(0.3, 0);
 }
 .cardProyecto .enlaces {
   border-top: 1px solid #eee;
@@ -98,9 +98,17 @@
   justify-content: space-evenly;
   width: 100%;
   opacity: 0;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.466);
+  backdrop-filter: blur(10px);
   font-weight: 700;
-  transition: all 0.5s ease;
+  transition: opacity 0.3s ease;
+}
+.cardProyecto:hover .contenido {
+  transform: scale(1);
+  opacity: 1;
+}
+.cardProyecto:hover .enlaces {
+  opacity: 1;
 }
 .enlaces a {
   display: flex;
@@ -124,15 +132,18 @@
 
 @keyframes show {
   0% {
-    opacity: 0;
+    z-index: -1;
+    opacity: 0.5;
     transform: scale(0) translateY(-1000px);
   }
   50% {
-    opacity: 0;
+    opacity: 0.5;
+    z-index: 0;
   }
 
   100% {
     opacity: 1;
+    z-index: 1;
     transform: scale(1) translate(0);
   }
 }

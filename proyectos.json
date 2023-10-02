@@ -8,6 +8,13 @@
       "titulo": "Centro Estético"
     },
     {
+      "deploy": "https://ficha-pacientes.vercel.app/",
+      "descripcion": "Ficha Pacientes es un proyecto diseñado para optimizar la recopilación de datos de los pacientes en el contexto de un centro estético, especialmente antes de cada sesión pactada. Esta aplicación, vinculada al entorno de Centro Estético, facilita la tarea de gestionar la información esencial de los pacientes, mejorando la eficiencia y la personalización del servicio. La interfaz intuitiva guía a los usuarios a través del proceso de ingreso de datos de manera sencilla y segura.",
+      "gitHub": "https://github.com/Federico-Pena/Ficha-Paciente-Nati",
+      "imagen": "/assets/portadaFichaPaciente.webp",
+      "titulo": "Ficha Pacientes"
+    },
+    {
       "deploy": "https://clonflix.vercel.app/",
       "descripcion": "Clonflix es una PWA que replica la experiencia de la aplicación de Netflix. Desarrollada con React, esta aplicación se conecta a la API de TMDB para obtener información actualizada sobre películas y series. La interfaz de usuario, similar a la de Netflix, brinda una experiencia de usuario inmersiva y atractiva para los amantes del contenido audiovisual.",
       "gitHub": "https://github.com/Federico-Pena/clonflix",

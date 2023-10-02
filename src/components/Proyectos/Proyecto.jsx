@@ -10,7 +10,7 @@ function Proyecto({ proyecto }) {
         <img
           loading='lazy'
           src={proyecto.imagen}
-          alt={`Portada Proyecto ${proyecto.titulo}`}
+          alt={`Portada Proyecto ${proyecto.imagen}`}
           title={`Portada Proyecto ${proyecto.titulo}`}
         />
       </div>
