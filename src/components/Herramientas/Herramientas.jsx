@@ -61,7 +61,7 @@ function Herramientas() {
               <img
                 loading='lazy'
                 className='squoosh'
-                src='./assets/squoosh.webp'
+                src='/assets/squoosh.webp'
                 alt='Logo Empresa Squoosh'
                 title='Logo Empresa Squoosh'
               />
@@ -72,7 +72,7 @@ function Herramientas() {
             <a href='https://www.gimp.org/' target='_blank' rel='noopener noreferrer'>
               <img
                 loading='lazy'
-                src='./assets/gimp.webp'
+                src='/assets/gimp.webp'
                 alt='Logo Empresa Gimp'
                 title='Logo Empresa Gimp'
               />
@@ -83,7 +83,7 @@ function Herramientas() {
             <a href='https://icon.kitchen/' target='_blank' rel='noopener noreferrer'>
               <img
                 loading='lazy'
-                src='./assets/iconKitchen.png'
+                src='/assets/iconKitchen.png'
                 alt='Logo Empresa icon Kitchen'
                 title='Logo Empresa icon Kitchen'
               />
@@ -94,7 +94,7 @@ function Herramientas() {
             <a href='https://colorhunt.co/' target='_blank' rel='noopener noreferrer'>
               <img
                 loading='lazy'
-                src='./assets/colorHunt.webp'
+                src='/assets/colorHunt.webp'
                 alt='Logo Empresa color Hunt'
                 title='Logo Empresa color Hunt'
               />
