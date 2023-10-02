@@ -1,32 +1,32 @@
 {
-	"proyectos": [
-		{
-			"titulo": "Clonflix",
-			"imagen": "./assets/portadaClonfix.webp",
-			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
-			"gitHub": "https://github.com/Federico-Pena/clonflix",
-			"deploy": "https://clonflix.vercel.app/"
-		},
-		{
-			"titulo": "La Tienda",
-			"imagen": "./assets/portadaLaTienda.webp",
-			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
-			"gitHub": "https://github.com/Federico-Pena/La-Tienda",
-			"deploy": "https://la-tienda.vercel.app/"
-		},
-		{
-			"titulo": "Sabores Sin Fronteras",
-			"imagen": "./assets/portadaSaboresSinFronteras.webp",
-			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
-			"gitHub": "https://github.com/Federico-Pena/Sabores-sin-Fronteras",
-			"deploy": "https://sabores-sin-fronteras.vercel.app/"
-		},
-		{
-			"titulo": "Natalia Pena Masajista",
-			"imagen": "./assets/portadaNataliaPenaMasajista.webp",
-			"descripcion": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus blanditiis voluptatibus soluta velit, nam quo omnis accusantium? Pariatur incidunt nostrum modi porro explicabo id consequatur placeat ipsam! Soluta, non.",
-			"gitHub": "https://github.com/Federico-Pena/Natalia-Pena-Masajista",
-			"deploy": "https://natalia-pena-masajista.vercel.app/"
-		}
-	]
+  "proyectos": [
+    {
+      "deploy": "https://centro-estetico.vercel.app/",
+      "descripcion": "Centro Estético es una Progressive Web App (PWA) diseñada para la gestión eficiente de reservas y pacientes en un entorno de centro estético. Esta aplicación, basada en un proyecto real y sin restricciones de seguridad, utiliza una arquitectura completa que incluye Node.js, Auth0 para la autenticación y React para la interfaz de usuario. Todo ello se integra de manera cohesionada para ofrecer una experiencia de usuario fluida y segura. ",
+      "gitHub": "https://github.com/Federico-Pena/Centro-Estetico",
+      "imagen": "./assets/portadaNataliaPenaMasajista.webp",
+      "titulo": "Centro Estético"
+    },
+    {
+      "deploy": "https://clonflix.vercel.app/",
+      "descripcion": "Clonflix es una PWA que replica la experiencia de la aplicación de Netflix. Desarrollada con React, esta aplicación se conecta a la API de TMDB para obtener información actualizada sobre películas y series. La interfaz de usuario, similar a la de Netflix, brinda una experiencia de usuario inmersiva y atractiva para los amantes del contenido audiovisual.",
+      "gitHub": "https://github.com/Federico-Pena/clonflix",
+      "imagen": "./assets/portadaClonfix.webp",
+      "titulo": "Clonflix"
+    },
+    {
+      "deploy": "https://sabores-sin-fronteras.vercel.app/",
+      "descripcion": "Sabores Sin Fronteras es una PWA que te sumerge en el mundo de la cocina internacional. Desarrollada con React, esta aplicación utiliza la API de TheMealDB para ofrecer una amplia variedad de recetas de cocina. Desde platos tradicionales hasta innovadoras creaciones, los usuarios pueden explorar, guardar y compartir sus recetas favoritas en esta plataforma culinaria global.",
+      "gitHub": "https://github.com/Federico-Pena/Sabores-sin-Fronteras",
+      "imagen": "./assets/portadaSaboresSinFronteras.webp",
+      "titulo": "Sabores Sin Fronteras"
+    },
+    {
+      "deploy": "https://la-tienda.vercel.app/",
+      "descripcion": "La Tienda es un proyecto de comercio electrónico desarrollado con vanilla JavaScript y localStorage. Esta aplicación ofrece características completas, como inicio de sesión, registro de usuarios y la capacidad de agregar nuevos productos. La interfaz de usuario intuitiva y amigable proporciona a los usuarios una experiencia de compra en línea sin complicaciones.",
+      "gitHub": "https://github.com/Federico-Pena/La-Tienda",
+      "imagen": "./assets/portadaLaTienda.webp",
+      "titulo": "La Tienda"
+    }
+  ]
 }

@@ -8,16 +8,16 @@ import SobreMi from './components/SobreMi/SobreMi'
 import Herramientas from './components/Herramientas/Herramientas'
 
 function App() {
-	return (
-		<BrowserRouter>
-			<NavBar />
-			<main className='main'>
-				<Hero />
-				<Proyectos />
-				<Herramientas />
-				<SobreMi />
-			</main>
-		</BrowserRouter>
-	)
+  return (
+    <BrowserRouter>
+      <NavBar />
+      <main className='main'>
+        <Hero />
+        <Proyectos />
+        <Herramientas />
+        <SobreMi />
+      </main>
+    </BrowserRouter>
+  )
 }
 export default App

@@ -1,42 +1,42 @@
 header,
 nav {
-	width: 100%;
-	position: sticky;
-	top: 0;
-	z-index: 5;
-	background-color: rgba(0, 0, 0, 0.63);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.63);
 }
 .progressBar {
-	background-color: rgb(6, 143, 255);
-	height: 0.2rem;
-	width: 100%;
-	transform-origin: 0 50%;
-	animation: progress-bar auto linear;
-	animation-timeline: scroll();
+  background-color: #03f;
+  height: 0.2rem;
+  width: 100%;
+  transform-origin: 0 50%;
+  animation: progress-bar auto linear;
+  animation-timeline: scroll();
 }
 .ulNav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	padding: 1rem 2rem;
-	max-width: 1000px;
-	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .ulNav a {
-	text-decoration: none;
-	color: #eee;
+  text-decoration: none;
+  color: #eee;
 }
 .ulNav a:hover {
-	color: #4e4feb;
-	text-decoration: underline;
+  color: #4e4feb;
+  text-decoration: underline;
 }
 
 @keyframes progress-bar {
-	from {
-		transform: scaleX(0);
-	}
-	to {
-		transform: scaleX(100%);
-	}
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(100%);
+  }
 }

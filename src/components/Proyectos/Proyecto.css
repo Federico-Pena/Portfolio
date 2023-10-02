@@ -1,135 +1,138 @@
 #proyectos {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #ababab;
-	width: 100%;
-	position: relative;
-	padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ababab;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
 }
 
 #proyectos h3 {
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
-	color: #121212;
-	margin-top: 3rem;
-	margin-bottom: 1rem;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  color: #121212;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .proyectosContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
-	margin: auto;
-	width: 100%;
-	max-width: 1000px;
-	position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
 }
 
 .cardProyecto {
-	view-timeline-name: --revealing-card;
-	view-timeline-axis: y;
-	animation-name: show;
-	animation-timing-function: ease;
-	animation-fill-mode: both;
-	animation-timeline: --revealing-card;
-	animation-range: entry 10% cover 25%;
-	width: 100%;
-	max-width: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-radius: 0.3rem;
-	position: relative;
-	overflow: hidden;
-	color: #121212;
-	cursor: default;
+  view-timeline-name: --revealing-card;
+  view-timeline-axis: y;
+  animation-name: show;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  animation-timeline: --revealing-card;
+  animation-range: entry 0% cover 30%;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  position: relative;
+  overflow: hidden;
+  color: #121212;
+  cursor: default;
 }
 .cardProyecto h4 {
-	background-color: rgba(255, 255, 255, 0.205);
-	backdrop-filter: blur(10px);
-	color: #121212;
-	width: 100%;
-	text-align: center;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	z-index: 2;
+  background-color: rgba(255, 255, 255, 0.205);
+  backdrop-filter: blur(10px);
+  color: #121212;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  z-index: 2;
 }
 .cardProyecto:hover .contenido {
-	opacity: 1;
-	background-color: rgba(255, 255, 255, 0.466);
-	backdrop-filter: blur(10px);
+  height: 100%;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.466);
+  backdrop-filter: blur(10px);
 }
 .cardProyecto:hover .enlaces {
-	opacity: 1;
-	background-color: rgba(255, 255, 255, 0.466);
-	backdrop-filter: blur(10px);
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.466);
+  backdrop-filter: blur(10px);
 }
 .cardProyecto .imgContainer {
-	max-width: 100%;
-	border-radius: 0.3rem;
+  max-width: 100%;
+  border-radius: 0.3rem;
 }
 .imgContainer img {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 50%;
-	top: 0;
-	transform: translate(-50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
 }
 
 .cardProyecto .contenido {
-	padding: 1rem;
-	line-height: 1.8;
-	opacity: 0;
-	background-color: transparent;
-	color: #121212;
-	font-weight: 700;
-	transition: all 0.5s ease;
+  padding: 1rem;
+  line-height: 1.8;
+  opacity: 0;
+  background-color: transparent;
+  color: #121212;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  flex: auto;
 }
 .cardProyecto .enlaces {
-	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
-	opacity: 0;
-	background-color: transparent;
-	font-weight: 700;
-	transition: all 0.5s ease;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  opacity: 0;
+  background-color: transparent;
+  font-weight: 700;
+  transition: all 0.5s ease;
 }
 .enlaces a {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1rem;
-	padding: 1rem 0.5rem;
-	text-decoration: none;
-	color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: #121212;
 }
 .enlaces a:hover {
-	text-decoration: underline;
-	transform: scale(1.1);
-	transition: transform 0.3s ease;
+  text-decoration: underline;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 .enlaces a svg {
-	width: 1.5rem;
-	height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 @keyframes show {
-	0% {
-		opacity: 0;
-		transform: scale(0.25) translate(-100vw);
-	}
-	50% {
-		opacity: 0.3;
-	}
-	100% {
-		opacity: 1;
-		transform: scale(1) translate(0);
-	}
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(-1000px);
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translate(0);
+  }
 }

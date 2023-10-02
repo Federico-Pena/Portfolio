@@ -1,72 +1,77 @@
 .background {
-	background-image: url('../../../assets/background.webp');
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
-	filter: blur(5px);
-	position: absolute;
-	min-height: 100vh;
-	width: 100%;
+  background-image: url('../../../assets/background.webp');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .hero {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	font-size: 2rem;
-	min-height: 100vh;
-	max-width: 1000px;
-	position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  min-height: 100vh;
+  max-width: 900px;
+  position: relative;
 }
 .hero h1 {
-	text-align: center;
-	width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  flex: auto;
 }
 .parrafo {
-	padding: 1rem;
-	line-height: 1.5;
-	font-size: 24px;
-	text-align: center;
-	height: fit-content;
+  padding: 1rem;
+  line-height: 1.5;
+  font-size: 24px;
+  text-align: center;
+  height: fit-content;
 }
 .nombre {
-	color: rgb(6, 143, 255);
+  color: #03f;
 }
 .palabras {
-	overflow: hidden;
-	letter-spacing: 3px;
-	opacity: 0;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: rgb(6, 143, 255);
-	white-space: nowrap;
-	text-shadow: 0px 0px 2px #000000;
-	font-weight: 700;
-	transition: opacity 0.8s ease;
-	animation: typing 4s steps(20) backwards infinite;
+  flex: auto;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03f;
+  white-space: nowrap;
+  text-shadow: 0px 0px 2px #000000;
+  font-weight: 700;
+  transition: opacity 0.8s ease;
+  animation: aparecer 2s steps(20) backwards infinite;
 }
-@keyframes typing {
-	50% {
-		opacity: 1;
-	}
-	90% {
-		opacity: 0;
-	}
+@keyframes aparecer {
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 425px) {
-	.hero h1 {
-		font-size: 2.5rem;
-	}
-	.hero .parrafo {
-		font-size: 20px;
-	}
-	.hero .palabras {
-		font-size: 26px;
-		padding-top: 2rem;
-	}
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero .parrafo {
+    font-size: 20px;
+  }
+  .hero .palabras {
+    font-size: 26px;
+    padding-top: 2rem;
+  }
 }
