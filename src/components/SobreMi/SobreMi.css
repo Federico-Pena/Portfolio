@@ -7,12 +7,14 @@
   background-color: #332424;
   color: #ffffff;
   width: 100%;
+  padding: 1rem;
 }
 #sobreMi h3 {
   width: 100%;
-  font-size: 24px;
+  font-size: 40px;
   text-align: center;
-  margin-top: 4rem;
+  color: #ffffff;
+  margin: 3rem 0;
 }
 #sobreMi ul {
   display: flex;
@@ -53,16 +55,16 @@
   align-items: center;
   color: #ffffff;
   transition: color 0.5s ease;
-  width: 100%;
   text-decoration: none;
 }
 .contacto a:hover {
-  color: #4e4feb;
+  color: #09f;
   text-decoration: underline;
 }
 .contacto a:hover svg {
-  color: #4e4feb;
+  color: #09f;
 }
+
 .contacto svg {
   width: 2rem;
   height: 2rem;

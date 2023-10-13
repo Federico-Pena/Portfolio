@@ -10,20 +10,19 @@
 
 #proyectos h3 {
   width: 100%;
-  font-size: 24px;
+  font-size: 40px;
   text-align: center;
   color: #121212;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin: 3rem 0;
 }
 .proyectosContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   margin: auto;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
 }
 
@@ -34,12 +33,11 @@
   animation-timing-function: ease;
   animation-fill-mode: both;
   animation-timeline: --revealing-card;
-  animation-range: entry 0% cover 30%;
+  animation-range: entry 0% cover 50%;
   transition: transform 0.3s ease;
   width: 100%;
-  max-width: 358px;
+  max-width: 360px;
   height: 740px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,9 +72,10 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translate(-50%);
+  left: 0;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 9/16;
 }
 
 .cardProyecto .contenido {
@@ -137,11 +136,6 @@
     transform: scale(0) translateY(-1000px);
   }
   50% {
-    opacity: 0.5;
-    z-index: 0;
-  }
-
-  100% {
     opacity: 1;
     z-index: 1;
     transform: scale(1) translate(0);

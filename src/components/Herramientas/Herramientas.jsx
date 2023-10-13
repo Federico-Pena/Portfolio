@@ -48,7 +48,7 @@ function Herramientas() {
           <li>
             <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
               <AiFillGithub />
-              GitHUb
+              GitHub
             </a>
           </li>
           <li>
