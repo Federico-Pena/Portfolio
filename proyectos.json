@@ -22,8 +22,15 @@
       "titulo": "Clonflix"
     },
     {
+      "deploy": "https://lista-tareas-app.vercel.app/",
+      "descripcion": "Lista Tareas es una Progressive Web App (PWA) diseñada con React y Node para la gestión ágil de tareas. Permite crear, editar, y eliminar tareas con una interfaz intuitiva y segura. Utiliza JWT para autenticación. Optimiza la productividad con flexibilidad y sincronización en tiempo real.",
+      "gitHub": "https://github.com/Federico-Pena/Crud-Notas",
+      "imagen": "/assets/notas-app.webp",
+      "titulo": "Lista Tareas"
+    },
+    {
       "deploy": "https://sabores-sin-fronteras.vercel.app/",
-      "descripcion": "Sabores Sin Fronteras es una PWA que te sumerge en el mundo de la cocina internacional. Desarrollada con React, esta aplicación utiliza la API de TheMealDB para ofrecer una amplia variedad de recetas de cocina. Desde platos tradicionales hasta innovadoras creaciones, los usuarios pueden explorar, guardar y compartir sus recetas favoritas en esta plataforma culinaria global.",
+      "descripcion": "Sabores Sin Fronteras es una PWA que te sumerge en el mundo de la cocina internacional. Desarrollada con React, esta aplicación utiliza la API de TheMealDB para ofrecer una amplia variedad de recetas de cocina. Desde platos tradicionales hasta innovadoras creaciones, los usuarios pueden explorar y guardar sus recetas favoritas en esta plataforma culinaria global.",
       "gitHub": "https://github.com/Federico-Pena/Sabores-sin-Fronteras",
       "imagen": "/assets/portadaSaboresSinFronteras.webp",
       "titulo": "Sabores Sin Fronteras"
