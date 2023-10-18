@@ -2,42 +2,49 @@
   "proyectos": [
     {
       "deploy": "https://centro-estetico.vercel.app/",
-      "descripcion": "Centro Estético es una Progressive Web App (PWA) diseñada para la gestión eficiente de reservas y pacientes en un entorno de centro estético. Esta aplicación, basada en un proyecto real y sin restricciones de seguridad, utiliza una arquitectura completa que incluye Node.js, Auth0 para la autenticación y React para la interfaz de usuario. Todo ello se integra de manera cohesionada para ofrecer una experiencia de usuario fluida y segura. ",
+      "descripcion": "Centro Estético es una Progressive Web App (PWA) diseñada para la gestión eficiente de reservas y pacientes en un entorno de centro estético. Esta aplicación, basada en un proyecto real y sin restricciones de seguridad, utiliza una arquitectura completa que incluye Node.js, Auth0 para la autenticación y React para la interfaz de usuario. Todo ello se integra de manera cohesionada para ofrecer una experiencia de usuario fluida y segura",
       "gitHub": "https://github.com/Federico-Pena/Centro-Estetico",
       "imagen": "/assets/portadaNataliaPenaMasajista.webp",
       "titulo": "Centro Estético"
     },
     {
       "deploy": "https://ficha-pacientes.vercel.app/",
-      "descripcion": "Ficha Pacientes es un proyecto diseñado para optimizar la recopilación de datos de los pacientes en el contexto de un centro estético, especialmente antes de cada sesión pactada. Esta aplicación, vinculada al entorno de Centro Estético, facilita la tarea de gestionar la información esencial de los pacientes, mejorando la eficiencia y la personalización del servicio. La interfaz intuitiva guía a los usuarios a través del proceso de ingreso de datos de manera sencilla y segura.",
+      "descripcion": "Ficha Pacientes es un proyecto diseñado para optimizar la recopilación de datos de los pacientes en el contexto de un centro estético, especialmente antes de cada sesión pactada. Esta aplicación, vinculada al entorno de Centro Estético, facilita la tarea de gestionar la información esencial de los pacientes, mejorando la eficiencia y la personalización del servicio. La interfaz intuitiva guía a los usuarios a través del proceso de ingreso de datos de manera sencilla y segura",
       "gitHub": "https://github.com/Federico-Pena/Ficha-Paciente-Nati",
       "imagen": "/assets/portadaFichaPaciente.webp",
       "titulo": "Ficha Pacientes"
     },
     {
       "deploy": "https://clonflix.vercel.app/",
-      "descripcion": "Clonflix es una PWA que replica la experiencia de la aplicación de Netflix. Desarrollada con React, esta aplicación se conecta a la API de TMDB para obtener información actualizada sobre películas y series. La interfaz de usuario, similar a la de Netflix, brinda una experiencia de usuario inmersiva y atractiva para los amantes del contenido audiovisual.",
+      "descripcion": "Clonflix es una PWA que replica la experiencia de la aplicación de Netflix. Desarrollada con React, esta aplicación se conecta a la API de TMDB para obtener información actualizada sobre películas y series. La interfaz de usuario, similar a la de Netflix, brinda una experiencia de usuario inmersiva y atractiva para los amantes del contenido audiovisual",
       "gitHub": "https://github.com/Federico-Pena/clonflix",
       "imagen": "/assets/portadaClonfix.webp",
       "titulo": "Clonflix"
     },
     {
       "deploy": "https://lista-tareas-app.vercel.app/",
-      "descripcion": "Lista Tareas es una Progressive Web App (PWA) diseñada con React y Node para la gestión ágil de tareas. Permite crear, editar, y eliminar tareas con una interfaz intuitiva y segura. Utiliza JWT para autenticación. Optimiza la productividad con flexibilidad y sincronización en tiempo real.",
+      "descripcion": "Lista Tareas es una Progressive Web App (PWA) diseñada con React y Node para la gestión ágil de tareas. Permite crear, editar, y eliminar tareas con una interfaz intuitiva y segura. Utiliza JWT para autenticación. Optimiza la productividad con flexibilidad y sincronización en tiempo real",
       "gitHub": "https://github.com/Federico-Pena/Crud-Notas",
       "imagen": "/assets/notas-app.webp",
       "titulo": "Lista Tareas"
     },
     {
+      "deploy": "https://tus-finanzas.vercel.app/",
+      "descripcion": "Tus Finanzas es una Progressive Web App (PWA) desarrollada con React y Node para la gestión eficiente de tus finanzas personales. Esta aplicación te permite agregar gastos e ingresos, filtrarlos por un rango de fechas específico, visualizarlos en una lista detallada y analizar tus datos a través de un gráfico. La autenticación está gestionada mediante JWT, proporcionando un entorno seguro",
+      "gitHub": "https://github.com/Federico-Pena/Finanzas",
+      "imagen": "/assets/finanzas-app.webp",
+      "titulo": "Tus Finanzas"
+    },
+    {
       "deploy": "https://sabores-sin-fronteras.vercel.app/",
-      "descripcion": "Sabores Sin Fronteras es una PWA que te sumerge en el mundo de la cocina internacional. Desarrollada con React, esta aplicación utiliza la API de TheMealDB para ofrecer una amplia variedad de recetas de cocina. Desde platos tradicionales hasta innovadoras creaciones, los usuarios pueden explorar y guardar sus recetas favoritas en esta plataforma culinaria global.",
+      "descripcion": "Sabores Sin Fronteras es una PWA que te sumerge en el mundo de la cocina internacional. Desarrollada con React, esta aplicación utiliza la API de TheMealDB para ofrecer una amplia variedad de recetas de cocina. Desde platos tradicionales hasta innovadoras creaciones, los usuarios pueden explorar y guardar sus recetas favoritas en esta plataforma culinaria global",
       "gitHub": "https://github.com/Federico-Pena/Sabores-sin-Fronteras",
       "imagen": "/assets/portadaSaboresSinFronteras.webp",
       "titulo": "Sabores Sin Fronteras"
     },
     {
       "deploy": "https://la-tienda.vercel.app/",
-      "descripcion": "La Tienda es un proyecto de comercio electrónico desarrollado con vanilla JavaScript y localStorage. Esta aplicación ofrece características completas, como inicio de sesión, registro de usuarios y la capacidad de agregar nuevos productos. La interfaz de usuario intuitiva y amigable proporciona a los usuarios una experiencia de compra en línea sin complicaciones.",
+      "descripcion": "La Tienda es un proyecto de comercio electrónico desarrollado con vanilla JavaScript y localStorage. Esta aplicación ofrece características completas, como inicio de sesión, registro de usuarios y la capacidad de agregar nuevos productos. La interfaz de usuario intuitiva y amigable proporciona a los usuarios una experiencia de compra en línea sin complicaciones",
       "gitHub": "https://github.com/Federico-Pena/La-Tienda",
       "imagen": "/assets/portadaLaTienda.webp",
       "titulo": "La Tienda"

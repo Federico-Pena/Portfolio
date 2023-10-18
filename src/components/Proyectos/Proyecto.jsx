@@ -15,7 +15,9 @@ function Proyecto({ proyecto }) {
         />
       </div>
       <div className='contenido'>
-        <p>{proyecto.descripcion}</p>
+        {proyecto.descripcion.split('. ').map((d) => (
+          <p key={d}>{d}.</p>
+        ))}
       </div>
       <div className='enlaces'>
         <a href={proyecto.deploy} target='_blank' rel='noreferrer'>
