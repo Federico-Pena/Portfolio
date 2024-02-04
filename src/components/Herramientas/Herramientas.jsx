@@ -1,7 +1,7 @@
 import './herramientas.css'
 import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai'
 import { LiaNode } from 'react-icons/lia'
-import { BiLogoCss3, BiLogoJavascript, BiLogoMongodb } from 'react-icons/bi'
+import { BiLogoCss3, BiLogoJavascript, BiLogoMongodb, BiLogoTailwindCss } from 'react-icons/bi'
 import { BsGit } from 'react-icons/bs'
 import { SiExpress, SiOpenai, SiReact, SiSass } from 'react-icons/si'
 
@@ -37,6 +37,12 @@ function Herramientas() {
               rel='noopener noreferrer'>
               <BiLogoJavascript />
               JavasScript
+            </a>
+          </li>
+          <li>
+            <a href='https://tailwindcss.com/' target='_blank' rel='noopener noreferrer'>
+              <BiLogoTailwindCss />
+              Tailwind
             </a>
           </li>
           <li>
